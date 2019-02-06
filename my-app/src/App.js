@@ -4,6 +4,7 @@ import HypeCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import hype from "./hype.json";
+// import "./style.css"
 
 class App extends Component {
   // Setting this.state.hype to the json array
@@ -66,13 +67,7 @@ shuffle = a => {
       highScore={this.state.highScore}
       message={this.state.message}
       />
-    {/* <Score
-    value={1}
-    />
-        <Score
-    text={"Top Score"}
-    value={2}
-    /> */}
+
     {/* displayCard= */}
     {this.state.hype.map(displayCard => (
         <HypeCard
