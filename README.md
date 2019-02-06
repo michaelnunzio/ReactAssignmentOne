@@ -1,2 +1,0 @@
-# ReactAssignmentOne
-Click Game
