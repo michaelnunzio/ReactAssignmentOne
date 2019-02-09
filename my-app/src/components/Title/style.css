@@ -13,4 +13,6 @@
 .score {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
+  text-align: center;
+  padding-bottom: 18px;
 }
